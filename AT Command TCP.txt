@@ -1,0 +1,12 @@
+GET /demo/01/addData.php?motionornot=1 HTTP/1.1\r\nHost: aldebaran.web.id\r\n\r\n 75
+AT+CIPSTART="TCP","aldebaran.web.id",80
+
+GET /project/1/addData.php?motionornot=1 HTTP/1.1\r\nHost: aldebaran.esy.es\r\n\r\n 77
+GET /receiver.php?apel=0&jeruk=0 HTTP/1.1\r\nHost: aldebaran.esy.es\r\n\r\n 69
+AT+CIPSTART="TCP","aldebaran.esy.es",80
+
+WEBHOST: aldebaran.esy.es (185.28.20.229)
+DB: mysql.idhostinger.com
+
+AT+CIPSTART="TCP","adafruit.com",80
+GET /testwifi/index.html HTTP/1.1\r\nHost: adafruit.com\r\n\r\n 57
