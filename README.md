@@ -16,14 +16,14 @@ File `addData.php` digunakan untuk menambahkan data log ke database. Lebih tepat
 
 ## Perkabelan
 Arduino > ESP8266 Wifi Module
-3V3 > VCC dan CH_PD
-TX > RX
-RX > TX
-GND > GND
+* 3V3 > VCC dan CH_PD
+* TX > RX
+* RX > TX
+* GND > GND
 
 Arduino > PIR Motion Sensor
-5V > VCC
-D3 > OUT
-GND > GND
+* 5V > VCC
+* D3 > OUT
+* GND > GND
 
 <p align="center"><img src="https://github.com/rifqitama16/arduino-motion-detector/blob/master/resource/Motion-Sensor-With-ESP8266-Schematics.png"></p>
