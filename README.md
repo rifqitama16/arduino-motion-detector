@@ -4,7 +4,7 @@
 ### Disclaimer:
 Ini adalah proyek lama (2 tahun lalu lebih saat repositori ini dibuat) sehingga ada kemungkinan beberapa hal sudah tidak sesuai lagi dengan saat ini.
 
-<gambar 1>
+<p align="center"><img src="https://github.com/rifqitama16/arduino-motion-detector/blob/master/resource/P_20151230_005805.jpg"></p>
 
 ## Deskripsi
 Menggunakan 3 komponen utama yaitu Arduino Uno, ESP8266 Wifi Module, dan PIR Motion Sensor. Jika PIR mendeteksi adanya gerakan, maka PIR akan mengirim sinyal high ke Arduino dan selanjutnya Arduino akan mengirim serangkaian perintah dan data bahwa terdapat ada atau tidaknya gerakan ke ESP8266. Perintah-perintah yang diperoleh ESP8266 dari Arduino secara berurutan yaitu: membuat koneksi dengan jaringan lokal, membuat koneksi TCP ke host aldebaran.esy.es (sudah tidak aktif lagi), dan mengirim data dan mengakses file `addData.php` melalui method GET.
@@ -12,7 +12,7 @@ Menggunakan 3 komponen utama yaitu Arduino Uno, ESP8266 Wifi Module, dan PIR Mot
 ## Penjelasan Tiap File
 File `addData.php` digunakan untuk menambahkan data log ke database. Lebih tepatnya, menginputkan nilai (dari selector motionornot) ke kolom motion yang ada pada tabel t1. File ini akan diakses tiap kali ada gerakan terdeteksi atau gerakan sudah tidak terdeteksi lagi. File `dataReview.php` digunakan untuk mendapatkan log dari database dan menampilkannya. File `WiFi_Motion_Detector_v1.ino` merupakan file utama yang nantinya diunggah ke Arduino. File `dbconnect.php` digunakan untuk melakukan koneksi ke MySQL yang di-hosting di aldebaran.esy.es. Sedangkan file `AT Command TCP.txt` adalah catatan tambahan mengenai command yang digunakan di ESP8266.
 
-<gambar web>
+<p align="center"><img src="https://github.com/rifqitama16/arduino-motion-detector/blob/master/resource/1-motionLog.png"></p>
 
 ## Perkabelan
 Arduino > ESP8266 Wifi Module
@@ -26,4 +26,4 @@ Arduino > PIR Motion Sensor
 D3 > OUT
 GND > GND
 
-<gambar skematik>
+<p align="center"><img src="https://github.com/rifqitama16/arduino-motion-detector/blob/master/resource/Motion-Sensor-With-ESP8266-Schematics.png"></p>
