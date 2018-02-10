@@ -2,7 +2,7 @@
 <i>Arduino wireless motion detector with MySQL database</i>
 
 ### Disclaimer:
-Ini adalah proyek lama (2 tahun lalu lebih saat repositori ini dibuat) sehingga ada kemungkinan beberapa hal sudah tidak sesuai lagi dengan saat ini.
+Ini adalah proyek lama (2 tahun lalu lebih saat repositori ini dibuat) sehingga ada kemungkinan beberapa hal sudah tidak sesuai lagi di saat ini.
 
 <p align="center"><img src="https://github.com/rifqitama16/arduino-motion-detector/blob/master/resource/P_20151230_005805.jpg"></p>
 
